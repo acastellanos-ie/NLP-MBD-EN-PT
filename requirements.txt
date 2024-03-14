@@ -3,13 +3,9 @@ nltk
 spacy>=2.2.0,<3.0.0
 pandas
 elasticsearch
-torch
 fastai
-fastbook
-seaborn
 ktrain
 tqdm
 tensorflow==2.11
-tensorflow_gpu>=2.0
 git+https://github.com/amaiya/eli5@tfkeras_0_10_1
 git+https://github.com/amaiya/stellargraph@no_tf_dep_082
