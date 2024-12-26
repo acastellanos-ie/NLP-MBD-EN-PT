@@ -1,11 +1,20 @@
 transformers
 nltk
-spacy>=2.2.0,<3.0.0
-pandas
+
+spacy
+
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
+pandas==2.2.2
+
 elasticsearch
+torch
 fastai
+fastbook
+seaborn
 ktrain
-tqdm
-tensorflow==2.11
+
 git+https://github.com/amaiya/eli5@tfkeras_0_10_1
 git+https://github.com/amaiya/stellargraph@no_tf_dep_082
+
+tqdm
